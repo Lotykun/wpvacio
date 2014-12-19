@@ -1637,7 +1637,15 @@ img#wpstats {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
 	body {
-		background-color: #e6e6e6;
+		/*background-color: #e6e6e6;*/
+                
+                background-image:-webkit-linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);
+                background-image:-moz-linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);
+                background-image:linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);
+                background-attachment: fixed;
+                background-size: auto;
+                background-position: 0% 0%;
+                background-repeat: repeat repeat;
 	}
 	body .site {
 		padding: 0 40px;
