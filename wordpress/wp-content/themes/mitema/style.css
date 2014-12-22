@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-dic-2014, 11:18:01
+    Author     : jlotito
+*/
+/*
+Theme Name: Mitema
+Theme URI: http://www.mitema.com
+Description: Mi primer tema de WP.
+Author: Tu nombre
+Author URI: http://www.tunombre.com
+Version: 1.0
+*/
+.commentlist li {
+  list-style: none !important;
+}
+.comment-body {
+  padding: 15px;
+}
+.comment-author {
+  margin-top: 5px;
+}
+.reply,  .commentmetadata {
+  font-size: 0.9em;
+}
+.depth-1, .depth-2, .depth-3, .depth-4 {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+.depth-1, .depth-3 {
+  background-color: #fafafa;
+}
+.depth-2, .depth-4 {
+   background-color: #fff;
+}
+.comment-author-eSandra {
+  border: 3px solid #eaeaea;
+  border-left:3px solid #fbc356;
+}
+.depth-1 {
+   margin: 20px 0;
+}
+/* Respuesta a comentarios*/
+.depth-2 {
+  margin:2% 5% !important;
+}
+.depth-3 {
+   margin: 2% 7% !important;
+}
+.depth-4 {
+  margin:2% 5% 4% 10% !important;
+}
+#comment, #author, #email {
+  border-radius: 4px;
+  border:2px solid #ccc;
+}
+
+body {
+    background-image:-webkit-linear-gradient(315deg,rgb(224,224,224) 0%,rgb(0,0,0) 100%);
+    background-image:-moz-linear-gradient(315deg,rgb(224,224,224) 0%,rgb(0,0,0) 100%);
+    background-image:linear-gradient(315deg,rgb(224,224,224) 0%,rgb(0,0,0) 100%);
+    /*background-image:-webkit-linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);
+    background-image:-moz-linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);
+    background-image:linear-gradient(315deg,rgb(42,204,79) 0%,rgb(0,0,0) 100%);*/
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+body .wrapper {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: rgb(0, 0, 0) 8px 11px 7px 2px;
+    
+    margin: 0 auto;
+    /*max-width: 960px;
+    max-width: 68.571428571rem;*/
+    max-width: 300px;
+    /*max-width: 68.571428571rem;*/
+    overflow: hidden;
+    
+    padding: 0 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+footer{
+    font-size: 15px;
+    float:none;
+    margin: 0 auto;
+    max-width: 960px;
+    max-width: 68.571428571rem;
+    overflow: hidden;
+    padding: 0 40px;
+}
+footer p{
+    font-weight: normal;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+}
+#sidebar {
+    float: right;
+    width: 26.041666667%;
+    margin: 1.714285714rem 0 0;	
+}
+#main{
+    float: left;
+    width: 65.104166667%;
+}
+
+/* Header */
+header h1 a,
+header h2 a {
+    color: #515151;
+    display: inline-block;
+    text-decoration: none;
+}
+header h1 a:hover,
+header h2 a:hover {
+    color: #21759b;
+}
+header h1 {
+    font-size: 24px;
+    font-size: 1.714285714rem;
+    line-height: 1.285714286;
+    margin-bottom: 14px;
+    margin-bottom: 1rem;
+}
+header h2 {
+    font-weight: normal;
+    font-size: 13px;
+    font-size: 0.928571429rem;
+    line-height: 1.846153846;
+    color: #757575;
+}
+header-image {
+    margin-top: 24px;
+    margin-top: 1.714285714rem;
+}
+
+/* Main */
+#main h2 a{
+    color: #515151;
+    display: inline-block;
+    text-decoration: none;
+}
+#main h2 a:hover {
+    color: #21759b;
+}
+
+/* Sidebar */
+#sidebar h3{
+    color: #515151;
+    /*display: inline-block;*/
+}
