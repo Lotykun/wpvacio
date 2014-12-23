@@ -22,7 +22,7 @@
             <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
             <h2>Otro sitio realizado con WordPress</h2>
             <hr>
-            <!--<?php wp_nav_menu( array('menu' => 'Main', 'container' => 'nav' )); ?>-->
+            <?php wp_nav_menu( array('menu' => 'Main', 'container' => 'nav' )); ?>
         </header>
 
 
